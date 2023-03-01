@@ -1,0 +1,243 @@
+{
+  "workouts": [
+    {
+      "nombre": "Dominadas",
+      "descripcion": "Ejercicio que consiste en levantarse sosteniéndose de una barra con la fuerza de los espalda.",
+      "equipamiento": ["Barra de dominadas"],
+      "categoria": "espalda"
+    },
+    {
+      "nombre": "Remo Sentado",
+      "descripcion": "Ejercicio que consiste en realizar movimientos de remo con una barra o mancuernas.",
+      "equipamiento": ["Barra de remo", "Mancuerna"],
+      "categoria": "espalda"
+    },
+    {
+      "nombre": "Press de Banca",
+      "descripcion": "Ejercicio que consiste en levantar una barra o mancuernas desde el pecho hasta los hombros.",
+      "equipamiento": ["Barra de press", "Mancuernas"],
+      "categoria": "espalda"
+    },
+    {
+      "nombre": "Elevaciones Laterales",
+      "descripcion": "Ejercicio que consiste en levantar los brazos con una barra o mancuernas a los lados del cuerpo.",
+      "equipamiento": ["Barra de elevaciones laterales", "Mancuernas"],
+      "categoria": "espalda"
+    },
+    {
+      "nombre": "Remo Inverso",
+      "descripcion": "Ejercicio que consiste en realizar movimientos de remo con una barra o mancuernas desde la parte inferior del cuerpo.",
+      "equipamiento": ["Barra de remo inverso", "Mancuerna"],
+      "categoria": "espalda"
+    },
+    {
+      "nombre": "Press militar con mancuernas",
+      "descripción corta": "Este ejercicio trabaja la parte superior del hombro con un movimiento de subida y bajada con mancuernas.",
+      "equipamiento necesario": ["Mancuernas", "Banco"],
+      "categoría": "hombro"
+    },
+    {
+      "nombre": "Press tras nuca con barra",
+      "descripción corta": "Este ejercicio trabaja los hombros con un movimiento de subida y bajada con una barra.",
+      "equipamiento necesario": ["Barra", "Pesas"],
+      "categoría": "hombro"
+    },
+    {
+      "nombre": "Elevación lateral con mancuernas",
+      "descripción corta": "Este ejercicio trabaja los hombros laterales con un movimiento de subida y bajada con mancuernas.",
+      "equipamiento necesario": ["Mancuernas", "Banco"],
+      "categoría": "hombro"
+    },
+    {
+      "nombre": "Flexiones laterales con mancuernas",
+      "descripción corta": "Este ejercicio trabaja los hombros laterales con un movimiento de flexión y extensión con mancuernas.",
+      "equipamiento necesario": ["Mancuernas", "Banco"],
+      "categoría": "hombro"
+    },
+    {
+      "nombre": "Elevaciones frontales",
+      "descripción corta": "Este ejercicio trabaja los hombros frontales con un movimiento de flexión y extensión con mancuernas o barras.",
+      "equipamiento necesario": ["Mancuernas", "Barra"],
+      "categoría": "hombro"
+    },
+    {
+      "nombre": "Sentadillas",
+      "descripcion": "Sentadillas es un ejercicio de piernas que se realiza de manera estática para fortalecer los músculos de la pierna superior.",
+      "equipamiento": ["Banca", "Mancuernas"],
+      "categoria": "Piernas"
+    },
+    {
+      "nombre": "Flexiones de Piernas",
+      "descripcion": "Flexiones de piernas es un ejercicio de fuerza que se realiza con el objetivo de fortalecer los músculos de la pierna inferior.",
+      "equipamiento": ["Bola medicinal", "Mancuernas"],
+      "categoria": "Piernas"
+    },
+    {
+      "nombre": "Sentadillas con Peso Muerto",
+      "descripcion": "Sentadillas con peso muerto es un ejercicio de fuerza que se realiza con el objetivo de fortalecer los músculos de la pierna superior, así como la espalda.",
+      "equipamiento": ["Barra", "Discos"],
+      "categoria": "Piernas"
+    },
+    {
+      "nombre": "Estocadas",
+      "descripcion": "Estocadas es un ejercicio de fuerza que se realiza con el objetivo de fortalecer los músculos de la pierna inferior, así como la espalda.",
+      "equipamiento": ["Mancuernas", "Tobilleras"],
+      "categoria": "Piernas"
+    },
+    {
+      "nombre": "Elevación de talones",
+      "descripcion": "Flexiones de pantorrillas es un ejercicio de fuerza que se realiza con el objetivo de fortalecer los músculos de la parte inferior del gemelo",
+      "equipamiento": ["Tobilleras"],
+      "categoria": "Piernas"
+    },
+    {
+      "nombre": "Press de banca",
+      "descripción": "Ejercicio de aislamiento para trabajar el pecho con una barra",
+      "equipamiento": ["Banca", "Barra", "Discos"],
+      "categoría": "Pecho"
+    },
+    {
+      "nombre": "Press con mancuernas",
+      "descripción": "Ejercicio de aislamiento para trabajar el pecho con mancuernas",
+      "equipamiento": ["Banca", "Mancuernas"],
+      "categoría": "Pecho"
+    },
+    {
+      "nombre": "Aperturas con mancuernas",
+      "descripción": "Ejercicio para trabajar el pecho con mancuernas en una posición de apertura",
+      "equipamiento": ["Banca", "Mancuernas"],
+      "categoría": "Pecho"
+    },
+    {
+      "nombre": "Fondos en paralelas",
+      "descripción": "Ejercicio para trabajar el pecho con la propia gravedad en paralelas",
+      "equipamiento": ["Paralelas"],
+      "categoría": "Pecho"
+    },
+    {
+      "nombre": "Flexiones",
+      "descripción": "Ejercicio para trabajar el pecho con la propia gravedad en el suelo",
+      "equipamiento": [],
+      "categoría": "Pecho"
+    },
+    {
+      "nombre": "Remo con mancuernas",
+      "descripcion": "Este ejercicio trabaja los bíceps con mancuernas en un banco desde la posición de sentado.",
+      "equipamiento": ["Banco", "Mancuernas"],
+      "categoria": "Bíceps"
+    },
+    {
+      "nombre": "Flexiones de codo",
+      "descripcion": "Este ejercicio se realiza de pie y trabaja los bíceps levantando los brazos alternativamente con los codos flexionados.",
+      "equipamiento": ["Peso libre"],
+      "categoria": "Bíceps"
+    },
+    {
+      "nombre": "Dominadas",
+      "descripcion": "Este ejercicio se realiza colgando de una barra y levantando el cuerpo con los brazos extendidos.",
+      "equipamiento": ["Barra", "Altura apropiada"],
+      "categoria": "Bíceps"
+    },
+    {
+      "nombre": "Curl de martillo",
+      "descripcion": "Este ejercicio se realiza de pie con mancuernas en una postura de martillo.",
+      "equipamiento": ["Mancuernas"],
+      "categoria": "Bíceps"
+    },
+    {
+      "nombre": "Curl con barra",
+      "descripcion": "Este ejercicio se realiza de pie con una barra para trabajar los bíceps.",
+      "equipamiento": ["Barra"],
+      "categoria": "Bíceps"
+    },
+    {
+      "nombre": "Curl de tríceps con barra",
+      "descripcion": "Este ejercicio trabaja los tríceps y los bíceps. Para hacerlo necesitas una barra de pesas.",
+      "equipamiento": ["Barra de pesas"],
+      "categoria": "tríceps"
+    },
+    {
+      "nombre": "Flexiones de tríceps",
+      "descripcion": "Las flexiones de tríceps trabajan los tríceps y los hombros. Necesitas un banco o una plataforma para hacer este ejercicio.",
+      "equipamiento": ["Banco", "Plataforma"],
+      "categoria": "tríceps"
+    },
+    {
+      "nombre": "Extensión de tríceps con cable",
+      "descripcion": "Esta extensión de tríceps trabaja los tríceps y los hombros. Necesitas una máquina de cable para hacer este ejercicio.",
+      "equipamiento": ["Máquina de cable"],
+      "categoria": "tríceps"
+    },
+    {
+      "nombre": "Press de tríceps con mancuerna",
+      "descripcion": "Este ejercicio trabaja los tríceps y los hombros. Necesitas un par de mancuernas para hacer este ejercicio.",
+      "equipamiento": ["Mancuernas"],
+      "categoria": "tríceps"
+    },
+    {
+      "nombre": "Extensión de tríceps con mancuerna",
+      "descripcion": "Esta extensión de tríceps trabaja los tríceps. Necesitas un par de mancuernas para hacer este ejercicio.",
+      "equipamiento": ["Mancuernas"],
+      "categoria": "tríceps"
+    }
+  ],
+  "members": [
+    {
+      "id": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "name": "Jason Miller",
+      "gender": "male",
+      "dateOfBirth": "23/04/1990",
+      "email": "jason@mail.com",
+      "password": "666349420ec497c1dc890c45179d44fb13220239325172af02d1fb6635922956"
+    },
+    {
+      "id": "2b9130d4-47a7-4085-800e-0144f6a46059",
+      "name": "Tiffany Brookston",
+      "gender": "female",
+      "dateOfBirth": "09/06/1996",
+      "email": "tiffy@mail.com",
+      "password": "8a1ea5669b749354110dcba3fac5546c16e6d0f73a37f35a84f6b0d7b3c22fcc"
+    },
+    {
+      "id": "11817fb1-03a1-4b4a-8d27-854ac893cf41",
+      "name": "Catrin Stevenson",
+      "gender": "female",
+      "dateOfBirth": "17/08/2001",
+      "email": "catrin@mail.com",
+      "password": "18eb2d6c5373c94c6d5d707650d02c3c06f33fac557c9cfb8cb1ee625a649ff3"
+    },
+    {
+      "id": "6a89217b-7c28-4219-bd7f-af119c314159",
+      "name": "Greg Bronson",
+      "gender": "male",
+      "dateOfBirth": "08/04/1993",
+      "email": "greg@mail.com",
+      "password": "a6dcde7eceb689142f21a1e30b5fdb868ec4cd25d5537d67ac7e8c7816b0e862"
+    }
+    
+  ],
+  "records": [
+    {
+      "id": "ad75d475-ac57-44f4-a02a-8f6def58ff56",
+      "workout": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "record": "160 reps"
+    },
+    {
+      "id": "0bff586f-2017-4526-9e52-fe3ea46d55ab",
+      "workout": "d8be2362-7b68-4ea4-a1f6-03f8bc4eede7",
+      "record": "7:23 minutes"
+    },
+    {
+      "id": "365cc0bb-ba8f-41d3-bf82-83d041d38b82",
+      "workout": "a24d2618-01d1-4682-9288-8de1343e53c7",
+      "record": "358 reps"
+    },
+    {
+      "id": "62251cfe-fdb6-4fa6-9a2d-c21be93ac78d",
+      "workout": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "record": "145 reps"
+    }
+  ]
+
+  
+}
