@@ -1,21 +1,25 @@
-const DB = require('./db.json');
+const DB = require('../database/db');
 const utils = require('./utils');
+const model = require('../models/workout');
+const { response } = require("express");
 
-const getAllWorkouts = (filterParams) =>{
+async function getAllWorkouts (filterParams, req, res = response) {
     try{
-        let workouts = DB.workouts;
 
-        if(filterParams.mode){
-            return DB.workouts.filter((workout) => workout.mode.toLowerCase().includes(filterParams.mode));
+       workouts = await model.find({});
+
+        if(filterParams.categoria){
+            return workouts.filter((workout) => workout.categoria.toLowerCase().includes(filterParams.categoria));
         }
-
+    
         if(filterParams.limit){
-            return DB.workouts.slice(0,filterParams.limit)
+            return workouts.slice(0,filterParams.limit)
         }
         return workouts;
     }catch(error){
         throw{status:500, message:error}
     }
+
    
 }
 

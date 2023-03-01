@@ -1,12 +1,15 @@
-const workOutService = require('../services/workOutService')
+const workOutService = require('../services/workOutService');
+
 
 const getAllWorkouts = (req, res) =>{
-    const {mode} = req.query;
+    const {categoria} = req.query;
     const {limit} = req.query;
     try{
-
-        const allWorkouts = workOutService.getAllWorkouts({mode,limit});
-        res.send({status: 'Ok', data: allWorkouts});
+        const allWorkouts = workOutService.getAllWorkouts({categoria,limit}).then(response=> {
+           
+        res.send({status: 'Ok', data: response});
+        });
+       
     }catch(error){
             res
         .status(error?.status || 500)
@@ -43,7 +46,7 @@ const createNewWorkouts = (req, res) =>{
     const {body} = req;
     if(
         !body.name ||
-        !body.mode ||
+        !body.categoria ||
         !body.equipment ||
         !body.exercises ||
         !body.trainerTips
@@ -61,7 +64,7 @@ const createNewWorkouts = (req, res) =>{
 
     const newWorkout = {
       name: body.name,
-      mode: body.mode,
+      categoria: body.categoria,
       equipement: body.equipement,
       exercices: body.exercices,
       trainerTips: body.trainerTips
